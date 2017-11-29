@@ -1,3 +1,4 @@
+//prints multiple statements
 public class GoodFirstProgram 
 {
 	public static void main(String[] args)
