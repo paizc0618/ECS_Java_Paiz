@@ -1,0 +1,28 @@
+
+public class YourSchedule 
+{
+	public static void main( String[] args)
+	{
+		String myName, myFirst, mySecond, myThird, myFourth, myTone, myTtwo, myTthree, myTfour;
+		int myPer1, myPer2, myPer3, myPer4;
+		
+		myName = "Collin Paiz";
+		myFirst = "Math 3 Honors";
+		mySecond = "Exploring Computer Science";
+		myThird = "AP US History";
+		myFourth = "Unscheduled";
+		myTone = "Shultis";
+		myTtwo = "Mauro";
+		myTthree = "Spilkin";
+		myTfour = "N/A";
+		myPer1 = 1;
+		myPer2 = 2;
+		myPer3 = 3;
+		myPer4 = 4;
+		
+		
+		System.out.println( "|Per " + myPer1 + "   |		" + myFirst + "			|		" + myTone + "		|"
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+
+public class StillUsingVariables 
+{
+	public static void main( String[] args)
+	{
+		int yourname;
+		String yourgradeyear;
+		
+		
+	}
+
+}

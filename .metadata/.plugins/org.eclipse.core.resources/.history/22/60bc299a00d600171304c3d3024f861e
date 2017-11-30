@@ -1,0 +1,12 @@
+
+public class YourSchedule 
+{
+	public static void main( String[] args)
+	{
+		String myName, myFirst, mySecond, myThird, myFourth;
+		int myPer1, myPer2, myPer3, myPer4;
+		
+		
+		
+	}
+}

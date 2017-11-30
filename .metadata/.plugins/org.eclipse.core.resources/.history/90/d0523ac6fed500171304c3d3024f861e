@@ -6,10 +6,10 @@ public class StillUsingVariables
 		int yourgradeyear;
 		String yourname;
 		
-		yourname = "Collin Paiz";
+		yourname = "Collin_Paiz";
 		yourgradeyear = 2019;
 		
-		System.out.println( "My name is " + yourname + " and I will graduate in " + yourgradeyear + ".");
+		System.out.println( "My name is " + yourname + "and I will graduate in " + yourgradeyear + ".");
 	}
 
 }
