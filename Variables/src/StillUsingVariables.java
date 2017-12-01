@@ -1,4 +1,4 @@
-
+// when I am graduating
 public class StillUsingVariables 
 {
 	public static void main( String[] args)

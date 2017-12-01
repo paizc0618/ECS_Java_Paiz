@@ -1,4 +1,4 @@
-
+// lists my current quarter 2 schedule
 public class YourSchedule 
 {
 	public static void main( String[] args)

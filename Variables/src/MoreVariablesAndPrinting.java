@@ -1,4 +1,4 @@
-
+// talk about my physical appearance
 public class MoreVariablesAndPrinting 
 {
 	public static void main( String[] args)
