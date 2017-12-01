@@ -5,6 +5,7 @@ public class MoreVariablesAndPrinting
 	{
 		String myName, myEyes, myTeeth, myHair;
 		int myAge, myHeight, myWeight;
+		double centHeight, centWeight;
 		
 		myName = "Collin Paiz";
 		myAge = 16;		// not a lie
@@ -13,10 +14,12 @@ public class MoreVariablesAndPrinting
 		myEyes = "Brown";
 		myTeeth = "White";
 		myHair = "Dark Brown";
+		centHeight = myHeight * 2.54;
+		centWeight = myWeight * .454;
 		
 		System.out.println( "Let's talk about " + myName + ".");
-		System.out.println( "He's " + myHeight + " inches tall.");
-		System.out.println( "He's " + myWeight + " pounds heavy.");
+		System.out.println( "He's " + myHeight + " (or " + centHeight + " cm) inches tall.");
+		System.out.println( "He's " + myWeight + " (or " + centWeight + " kg) pounds heavy.");
 		System.out.println( "Actually, that's not too heavy.");
 		System.out.println( "He's got " + myEyes + " eyes and " + myHair + " hair.");
 		System.out.println( "His teeth are usually " + myTeeth + "depending on the coffee.");
