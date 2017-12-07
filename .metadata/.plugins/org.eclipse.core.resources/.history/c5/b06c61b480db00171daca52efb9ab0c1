@@ -1,0 +1,13 @@
+import java.util.Scanner;
+import java.util.Random;
+public class KeepGuessing
+{
+	public static void main( String[] args)
+	{
+		Random r = new Random();
+		int x = 1 + r.nextInt(10);
+		
+		System.out.println("I have chosen a number between 1 and 10. Try to guess it");
+	}
+
+}

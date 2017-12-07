@@ -1,9 +1,0 @@
-
-public class YourSchedule 
-{
-	public static void main( String[] args)
-	{
-		int 
-		String class1, class2, class3, class4, teacher1, teacher2, teacher3, teacher4;
-	}
-}
