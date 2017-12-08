@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class KeepGuessingCounter 
+{
+	public static void main( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		Random r = new Random();
+		
+		
+	}
+	
+
+}

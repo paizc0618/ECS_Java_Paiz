@@ -20,5 +20,7 @@ public class ShorterDoubleDice
 		System.out.println("The total is " + (x + y));
 		again = keyboard.next();
 		} while(again.equals("y"));
+		
+		keyboard.close();
 	}
 }
