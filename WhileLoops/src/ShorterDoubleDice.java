@@ -18,6 +18,7 @@ public class ShorterDoubleDice
 		System.out.println("Roll #1: " + x);
 		System.out.println("Roll #2: " + y);
 		System.out.println("The total is " + (x + y));
+		System.out.println("Would you like to roll again? (y/n)");
 		again = keyboard.next();
 		} while(again.equals("y"));
 		

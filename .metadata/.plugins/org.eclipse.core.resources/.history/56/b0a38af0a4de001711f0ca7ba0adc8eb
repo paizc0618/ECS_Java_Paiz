@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class CountingMachineRevisited 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int countto;
+		int countfrom;
+		int countby;
+		
+		System.out.println("Count from: ");
+		countby = keyboard.nextInt();
+		
+		System.out.print("Count to: ");
+		countto = keyboard.nextInt();
+		
+		for(countfrom; countfrom <= countto; countfrom = countfrom + countby)
+		{
+			System.out.print(countfrom + " ");
+		}
+		
+		keyboard.close();
+	}
+}

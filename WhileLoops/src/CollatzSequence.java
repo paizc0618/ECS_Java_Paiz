@@ -23,11 +23,15 @@ public class CollatzSequence
 			if(x % 2 == 0)
 			{
 				System.out.print(" - " + (x / 2));
+				x = (x / 2);
 			}
 			else
 			{
 				System.out.print(" - " + ((x * 3) + 1));
+				x = ((x * 3) + 1);
 			}	
 		}while(x != 1);
+		
+		keyboard.close();
 	}
 }

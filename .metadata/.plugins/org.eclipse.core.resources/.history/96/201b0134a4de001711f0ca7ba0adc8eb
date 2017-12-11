@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class CountingMachineRevisited 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int number;
+		int n;
+		int countby;
+		
+		System.out.print("Count to: ");
+		number = keyboard.nextInt();
+		
+		for(int n = 1; n <= number; n = n + 1)
+		{
+			System.out.print(n + " ");
+		}
+		
+		keyboard.close();
+	}
+}
