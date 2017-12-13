@@ -10,7 +10,7 @@ public class FillInMethods
 
 		System.out.println();
 		System.out.println("I'm going to get a random character from A-Z");
-		char c = '!';
+		char c = 'C';
 		randchar(args);
 		System.out.println("The character is: " + c );
 
