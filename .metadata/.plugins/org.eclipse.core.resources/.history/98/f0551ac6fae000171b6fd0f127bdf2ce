@@ -1,0 +1,14 @@
+
+public class DistanceFormula 
+{
+	public static void main(String[] args)
+	{
+		// test the formula a bit
+		double d1 = distance(-2,1 , 1,5);
+		System.out.println("(-2,1); to (1,5) => " + dl);
+		
+		d2 = distance(-2,-3 , -4,4);
+		System.out.
+	}
+
+}
