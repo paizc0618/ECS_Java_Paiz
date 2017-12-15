@@ -1,0 +1,11 @@
+
+public class FindingPrimes 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("We are going to find some Primes!");
+		System.out.println("What range would you like them in?");
+		System.out.println("(only positive integers 2 or greater)");
+	}
+
+}

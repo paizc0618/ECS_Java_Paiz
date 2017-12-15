@@ -1,0 +1,64 @@
+      import java.util.Scanner;
+        
+      public class Keychains2
+      {
+        public static void main (String [] args)
+        {
+      	  int choice;
+      	  int keys =0;
+      	  int total=0;
+      	  System.out.println("Ye New Keychain Shoppe");
+      	  do
+      	  {
+      		  Scanner stuff = new Scanner(System.in);
+      		  System.out.println("1. Add Keychains to order");
+      		  System.out.println("2. Remove Keychanins from Order");
+      		  System.out.println("3. View Current Order");
+      		  System.out.println("4. Checkout");
+      		  System.out.println("");
+      		  System.out.println("Please enter your choice: ");
+      		  choice=stuff.nextInt();
+      		  if (choice == 1)
+      			  keys=Add(keys);
+      		  else if (choice == 2)
+      			  keys=Rem(keys);
+      		  else if (choice == 3)
+      			  total=View(keys);
+      		  else if (choice == 4)
+      				keys=Check(keys);
+      	  }while (choice !=4);
+        }
+      	  public static int Add (int keys1)
+      	  {
+      		Scanner stuff = new Scanner(System.in);
+      		System.out.println("You have "+keys1+" keychains. How many to add?");
+      		keys1=keys1+stuff.nextInt();
+      		System.out.println("You now have "+keys1+" keychains.");
+      		return keys1;
+      	  }
+      	  public static int Rem (int keys2)
+      	  {
+      		Scanner stuff = new Scanner(System.in);
+      		System.out.println("You have "+keys2+" keychains. How many to remove?");
+      		keys2=keys2-stuff.nextInt();
+      		System.out.println("You now have "+keys2+" keychains.");
+      		return keys2;
+      	  }
+      	  public static int View (int keys3)
+      	  {
+      		System.out.println("You now have "+keys3+" keychains.");
+      		System.out.println("Keychains coast $10 dollars each");
+      		int total = 10*keys3;
+      		System.out.println("Total cost is $"+total+".");
+      		return total;
+      	  }
+      	  public static int Check (int keys4)
+      	  {
+      		  Scanner stuff = new Scanner(System.in);
+      		  System.out.println("What is your name?");
+      		  String name=stuff.next();
+      		  View(keys4);
+      		  System.out.println("Thanks for your order, "+name+".");
+      		  return keys4;
+      	  }
+      }

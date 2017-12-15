@@ -1,0 +1,54 @@
+import java.util.Scanner;
+      
+public class Keychains
+{
+	public static void main (String [] args)
+    {
+		int choice;
+		System.out.println("Ye New Keychain Shoppe");
+			do
+			{
+				Scanner keyboard = new Scanner(System.in);
+				System.out.println("1. Add Keychains to order");
+				System.out.println("2. Remove Keychanins from Order");
+				System.out.println("3. View Current Order");
+				System.out.println("4. Checkout");
+				System.out.println("");
+				System.out.println("Please enter your choice: ");
+				choice = keyboard.nextInt();
+                if (choice == 1)
+                {
+                    Add();
+                }
+                else if (choice == 2)
+                {
+                    Rem();
+                }
+                else if (choice == 3)
+                {
+                    View();
+                }
+                else if (choice == 4)
+                {
+                    Check();
+                }
+                keyboard.close();
+            }while (choice !=4);
+        }
+            public static void Add()
+            {
+               System.out.println("ADD KEYCHAINS"); 
+            }
+            public static void Rem()
+            {
+                System.out.println("REMOVE KEYCHAINS");
+            }
+            public static void View()
+            {
+                System.out.println("VIEW ORDER");
+            }
+            public static void Check()
+            {
+                System.out.println("CHECKOUT");
+            }
+      }
